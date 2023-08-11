@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>touch the num</h1>
+    <form>
+        <div class="checkBox">
+        <input type="checkbox" name="easy" id="easy">
+        <label for="easy">EASY</label>
+    </div>
+        <div class="checkBox">
+        <input type="checkbox" name="amateur" id="amateur">
+        <label for="amateur">AMATEUR</label>
+    </div>
+        <div class="checkBox">
+        <input type="checkbox" name="expert" id="expert">
+        <label for="expert">EXPERT</label>
+    </div>
+    </form>
+    <button id="newGame">New Game</button>
+    <div id="btn">
+        <button id="timer"> Timer : <span id="minute"></span><span
+                id="second"></span></button>
+                <button id="numberCounter">Next Number : <span id="nextNum"></span></button>
+    </div>
+    <div id="table"></div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
