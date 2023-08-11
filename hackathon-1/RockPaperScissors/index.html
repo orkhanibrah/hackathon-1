@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="init()">
+    <div class="title">
+        <h1>Rock Paper Scissors</h1>
+        <h2>Press your choice, will you win against the computer?</h2>
+    </div>
+    <div class="choice">
+        <i id="rock" class="fa-regular fa-hand-back-fist"></i>
+        <i id="paper" class="fa-regular fa-hand"></i>
+        <i id="scissors" class="fa-regular fa-hand-scissors"></i>
+    </div>
+
+    <div class="battle" id="battle">
+        <div class="player">
+            <p>YOU</p>
+            <div id="playerChoice"></div>
+        </div>
+        <div class="computer">
+            <p>ADVERSER</p>
+            <div id="computerChoice"></div>
+        </div>
+    </div>
+
+    <div id="result"></div>
+    <script src="https://kit.fontawesome.com/4db01f5c44.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

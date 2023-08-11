@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="topSection">
+    <h1>Hangman</h1>
+    <h2>Find the hidden word - Enter a letter</h2>
+    <button>Start</button>
+    <div class="chanceNumber"></div>
+</div>
+    <section>
+        <div id="hangmanFigure">
+            <div class="figure" id="ground"></div>
+            <div class="figure" id="rigthBar"></div>
+            <div class="figure" id="topBar"></div>
+            <div class="figure" id="leftBar"></div>
+            <div class="figure" id="head"></div>
+            <div class="figure" id="stomach"></div>
+            <div class="figure" id="rightArm"></div>
+            <div class="figure" id="leftArm"></div>
+            <div class="figure" id="rightLeg"></div>
+            <div class="figure" id="leftLeg"></div>
+        </div>
+        <div id="rightSIde">
+            <div class="word">
+                <p>Wrong : </p>
+                <p id="wrongLetter"></p>
+
+            </div>
+            <div class="word">
+                <p id="hiddenWord"></p>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
